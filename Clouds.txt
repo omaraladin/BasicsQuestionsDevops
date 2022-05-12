@@ -1,2 +1,4 @@
 What is the difference between ALB "Application Load Balancer" and NLB "Network Load Balancer"?
+- ALB support Layer7 loadbalancing and configurability, NLB does not!
+
 

@@ -1,9 +1,26 @@
 What is the difference between SQL and NoSQL Databases?
+SQL is relational and structured, noSQL is non-relational and un-structured
+
 
 What is a Database Engine?
+- A database Engine or Storage Engine is the underlying software component that DBMS uses to Create, Update, Read, and Delete data 'CRUD'
 
-What are famous MySQL Databases Engine?
+Name some popular MySQL Databases Engine?
 1. MyISAM Engine
 2. InnoDB Engine
 
-What is the difference between 
+What is the difference between them:
+1. MyISAM is a non-transactional Engine, which means if a write operation failed, roll back should be done MANUALLY
+2. InnoDB is a transactional Engine, you guessed it! if a write operation failed, roll back is done AUTOMATICALLY
+
+Name some SQL/NoSQL DBs:
+- SQL: MySQL/PostgreSQL/MariaDB/Microsoft SQL
+- noSQL: MongoDB/Cassandra/ElasticSearch/AmazonDynamoDB
+
+Specify steps to avoid a SPOF MongoDB environment:
+- we need to implement an HA MongoDB cluster, steps are: asdasdasdasd
+
+What scenarios do we have to implement an FT 'Fault-tolerant' MySQL environment:
+
+
+What tools do we use to setup an FT 'Fault-tolerant' MySQL environment:
